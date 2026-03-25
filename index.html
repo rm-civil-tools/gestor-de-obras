@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM Civil Tools - Gestión de Obras y Presupuestos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #818cf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header -->
+    <nav class="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center font-bold text-white shadow-lg">RM</div>
+            <span class="text-xl font-bold tracking-tight">RM Civil Tools</span>
+        </div>
+        <div class="hidden md:block">
+            <span class="px-3 py-1 bg-indigo-500/20 text-indigo-400 rounded-full text-xs font-semibold border border-indigo-500/30">Versión 1.4.1 disponible</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 pt-16 pb-24 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+            Presupuestá tus obras <br> 
+            <span class="gradient-text">sin errores de Excel</span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+            Controlá tus insumos, generá APUs profesionales y certificá avances de obra en minutos. 
+            Software diseñado por ingenieros civiles para una gestión real.
+        </p>
+        
+        <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+            <a href="TU_LINK_DE_GOOGLE_FORMS_ACA" target="_blank" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl shadow-xl shadow-indigo-500/20 transition-all transform hover:scale-105">
+                Descargar v1.4.1 Gratis
+            </a>
+            <p class="text-sm text-slate-500">Único pago: $0. Uso libre e ilimitado.</p>
+        </div>
+    </section>
+
+    <!-- Demo Video Section -->
+    <section class="max-w-5xl mx-auto px-6 mb-32">
+        <div class="glass p-4 rounded-3xl shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 to-purple-500"></div>
+            <!-- Reemplazar 'demo.webp' con el nombre de tu archivo de video -->
+            <img src="rm_civil_tools_demo_v1_4_1_1774455517974.webp" alt="Demo del Software" class="w-full rounded-2xl shadow-inner">
+            <div class="mt-6 flex justify-between items-center px-4">
+                <span class="text-slate-400 text-sm font-medium">Vista previa de la interfaz v1.4.1</span>
+                <span class="text-indigo-400 text-sm font-bold">100% Offline y Seguro</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 mb-32">
+        <div class="glass p-8 rounded-3xl">
+            <div class="w-12 h-12 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-6 text-indigo-400">📊</div>
+            <h3 class="text-xl font-bold mb-3">Gestión de APUs</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Analizá rendimientos de materiales, mano de obra y equipos con actualización automática de precios en cascada.</p>
+        </div>
+        <div class="glass p-8 rounded-3xl text-center border-t-2 border-indigo-500/50">
+            <div class="w-12 h-12 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-6 text-indigo-400 mx-auto">🏗️</div>
+            <h3 class="text-xl font-bold mb-3">Control de Obras</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Organizá tus proyectos por rubros, calculá presupuestos base y compará contra facturación real.</p>
+        </div>
+        <div class="glass p-8 rounded-3xl">
+            <div class="w-12 h-12 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-6 text-indigo-400">📄</div>
+            <h3 class="text-xl font-bold mb-3">Certificaciones</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Generá actas de medición y certificados de avance de obra profesionales listos para exportar.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-800 text-center">
+        <p class="text-slate-500 text-sm mb-4">Desarrollado por el Ing. Ricardo Miranda</p>
+        <div class="flex justify-center gap-6">
+            <a href="https://www.linkedin.com/in/ing-ricardo-miranda-/" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-bold transition-colors">LinkedIn</a>
+            <a href="#" class="text-slate-400 hover:text-white transition-colors">RM Civil Tools © 2026</a>
+        </div>
+    </footer>
+
+</body>
+</html>
